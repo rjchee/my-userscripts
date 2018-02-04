@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AmazonSmile Reminder
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Reminds you to switch to AmazonSmile
 // @author       Raymond Chee
 // @match        https://www.amazon.com/*
