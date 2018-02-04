@@ -15,7 +15,7 @@
     var navBar = document.getElementsByClassName("nav-right");
     if (navBar) {
         var smileDiv = document.createElement("div");
-        smileDiv.style.cssText = "margin-top: 10px; margin-bottom: 10px; line-height: 40px;";
+        smileDiv.style.cssText = "margin-top: 8px; line-height: 40px;";
         var smileSpan = document.createElement("span");
         smileSpan.textContent = "Don't forget to purchase from ";
         smileSpan.style.cssText = "vertical-align: middle; color: #ccc";
