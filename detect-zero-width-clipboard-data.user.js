@@ -31,7 +31,7 @@
 
 ${replaceZeroWidth(data)}
 
-Do you want to remove them?`;
+Do you want to remove them? Press OK to remove the zero-width characters, or press Cancel to keep them.`;
             if (window.confirm(msg)) {
                 e.preventDefault();
                 e.clipboardData.setData('text/plain', removeZeroWidth(data));
