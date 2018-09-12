@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Opens the page in a split screen from the context menu.
 // @author       Raymond Chee
-// @match        *
+// @match        *://*/*
 // @noframes
 // @grant        GM_registerMenuCommand
 // @grant        GM_openInTab
