@@ -6,55 +6,20 @@ on Github, and click "Raw", which should open up with Tampermonkey by default.
 
 ## Table of Contents
 * [my-userscripts](#my-userscripts)
-    * [Table of Contents](#table-of-contents)
-    * [AmazonSmile Reminder](#amazonsmile-reminder)
-    * [Have I Filled out This Form Before?](#have-i-filled-out-this-form-before)
-    * [Send Like Keyboard Shortcut](#send-like-keyboard-shortcut)
-    * [Prevent Messenger from Tracking Links](#prevent-messenger-from-tracking-links)
+* [All Websites](#all-websites)
     * [Detect Zero-Width Characters When Copying Text](#detect-zero-width-characters-when-copying-text)
     * [Open Page in a New Two-Window Tab](#open-page-in-a-new-two-window-tab)
+* [Amazon](#amazon)
+    * [AmazonSmile Reminder](#amazonsmile-reminder)
+* [Google Forms](#google-forms)
+    * [Have I Filled out This Form Before?](#have-i-filled-out-this-form-before)
+* [Facebook Messenger](#facebook-messenger)
+    * [Send Like Keyboard Shortcut](#send-like-keyboard-shortcut)
+    * [Prevent Messenger from Tracking Links](#prevent-messenger-from-tracking-links)
+* [Autolab](#autolab)
     * [Autolab Submission Protector](#autolab-submission-protector)
 
-## [AmazonSmile Reminder](./amazonsmile_reminder.user.js)
-This script adds a gentle reminder button to make your purchases through
-AmazonSmile above the cart on https://www.amazon.com.
-
-This is a picture of the script in action:
-![AmazonSmile Reminder Screenshot](./screenshots/amazonsmile.png).
-
-Clicking the AmazonSmile logo will take you to the same page but on the Amazon
-Smile domain.
-
-Install this script [here](../../raw/master/amazonsmile_reminder.user.js).
-
-## [Have I Filled out This Form Before?](./indicate_completed_google_form.user.js)
-This script adds a count next to Google Forms indicating the number of times
-the form has been filled out before. This is implemented by storing the count
-in that page's LocalStorage, so it will not remember the count if you switch
-browsers or otherwise clear the storage.
-
-Before filling out a google form, the script will add a red 0 next to the form's title.
-![Before filling out the form](./screenshots/googleform.png)
-
-After filling the form out, the 0 will change into a green number indicating the number of times the form has been completed.
-![After filling out the form](./screenshots/googleformcomplete.png)
-
-Install this script [here](../../raw/master/indicate_completed_google_form.user.js).
-
-## [Send Like Keyboard Shortcut](./send_like_shortcut.user.js)
-This registers Ctrl+Shift+L as a keyboard shortcut on Facebook Messenger.
-Holding Ctrl+Shift+L acts like holding the like button down, so the 'like'
-emoji gets bigger the longer it is held.
-
-Install this script [here](../../raw/master/send_like_shortcut.user.js).
-
-## [Prevent Messenger from Tracking Links](./prevent_messenger_tracking.user.js)
-This script prevents Facebook Messenger from rewriting links to go through
-their own domain first when clicking on them. Whether or not this completely
-prevents them from tracking your clicks on Messenger, I'm not sure, but it's a
-start.
-
-Install this script [here](../../raw/master/prevent_messenger_tracking.user.js).
+# All Websites
 
 ## [Detect Zero-Width Characters When Copying Text](./detect_zero_width_clipboard_data.user.js)
 [This article](https://medium.com/@umpox/be-careful-what-you-copy-invisibly-inserting-usernames-into-text-with-zero-width-characters-18b4e6f17b66)
@@ -89,6 +54,55 @@ After clicking it, the current page will open on the specified side of the websi
 ![Split Window](./screenshots/split.png)
 
 Install this script [here](../../raw/master/open_page_in_two_window_tab.user.js).
+
+# Amazon
+
+## [AmazonSmile Reminder](./amazonsmile_reminder.user.js)
+This script adds a gentle reminder button to make your purchases through
+AmazonSmile above the cart on https://www.amazon.com.
+
+This is a picture of the script in action:
+![AmazonSmile Reminder Screenshot](./screenshots/amazonsmile.png).
+
+Clicking the AmazonSmile logo will take you to the same page but on the Amazon
+Smile domain.
+
+Install this script [here](../../raw/master/amazonsmile_reminder.user.js).
+
+# Google Forms
+
+## [Have I Filled out This Form Before?](./indicate_completed_google_form.user.js)
+This script adds a count next to Google Forms indicating the number of times
+the form has been filled out before. This is implemented by storing the count
+in that page's LocalStorage, so it will not remember the count if you switch
+browsers or otherwise clear the storage.
+
+Before filling out a google form, the script will add a red 0 next to the form's title.
+![Before filling out the form](./screenshots/googleform.png)
+
+After filling the form out, the 0 will change into a green number indicating the number of times the form has been completed.
+![After filling out the form](./screenshots/googleformcomplete.png)
+
+Install this script [here](../../raw/master/indicate_completed_google_form.user.js).
+
+# Facebook Messenger
+
+## [Send Like Keyboard Shortcut](./send_like_shortcut.user.js)
+This registers Ctrl+Shift+L as a keyboard shortcut on Facebook Messenger.
+Holding Ctrl+Shift+L acts like holding the like button down, so the 'like'
+emoji gets bigger the longer it is held.
+
+Install this script [here](../../raw/master/send_like_shortcut.user.js).
+
+## [Prevent Messenger from Tracking Links](./prevent_messenger_tracking.user.js)
+This script prevents Facebook Messenger from rewriting links to go through
+their own domain first when clicking on them. Whether or not this completely
+prevents them from tracking your clicks on Messenger, I'm not sure, but it's a
+start.
+
+Install this script [here](../../raw/master/prevent_messenger_tracking.user.js).
+
+# Autolab
 
 ## [Autolab Submission Protector](./autolab_submission_protector.user.js)
 At CMU, some classes accept homework submissions through Autolab. This websites
