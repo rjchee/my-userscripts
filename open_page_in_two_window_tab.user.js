@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Open Page in New Two-Window Tab
+// @name         Open Page in a New Two-Window Tab
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Opens the page in a split screen from the context menu.

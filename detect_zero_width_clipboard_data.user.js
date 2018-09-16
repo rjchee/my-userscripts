@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Detect Zero-Width characters when copying text
+// @name         Detect Zero-Width Characters When Copying Text
 // @namespace    http://tampermonkey.net/
 // @version      0.2
 // @description  This script alerts you if you copy a zero-width character and allows you to remove them to prevent being fingerprinted.

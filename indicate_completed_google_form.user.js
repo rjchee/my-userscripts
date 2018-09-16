@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Have I filled out this form before?
+// @name         Have I Filled out This Form Before?
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Script to mark whether you've filled out a Google Form before
